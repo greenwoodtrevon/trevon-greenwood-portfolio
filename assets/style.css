@@ -27,28 +27,61 @@ header nav, footer nav {
     float: right;
     vertical-align: middle;
 }
+nav ul li a:hover {
+    background-color: #E14658;
+}
 header a, footer a {
     text-decoration: none;
     color: #F7f6f2;
 }
 header nav ul li, footer nav ul li {
     display: inline-block;
+    padding: 5px;
 }
 header nav ul li a, footer nav ul li a {
+    display: flex;
     margin: 0 20px;
     font-weight: lighter;
     font-size: 22px;
+    padding: 5px;
 }
 
 .hero div h2 {
+    background-color: #E14658;
+    color:#F7f6f2;
+    padding: 10px;
     display: block;
-    
+    float: right;
 }
 
 .hero {
     margin-right: 50px;
+    background-image: url("real-hero.jpg");
+    height: 100px;
+    background-size: cover;
+    width: 100%;
 }
 
+.big-words {
+    display: flex;
+    float: left;
+    border-right: 5px;
+    border-color: #E14658;
+    margin: 15px;
+}
 .work h3 {
+    margin: 10px;
+}
+.container {
+    display: flex;
+    width: 70%;
+}
+.flex-item {
+    width: 75%;
+    flex-direction: row;
+}
+
+.about-me p {
+    display: flex;
     margin: 10px;
 }
