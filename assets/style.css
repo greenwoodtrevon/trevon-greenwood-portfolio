@@ -11,6 +11,7 @@ h1 {
     font-size: 50px;
 }
 header, footer {
+    display: flex;
     padding: 20px 0px 20px 0px;
     background-color: #22252C;
     color: #F7f6f2;
@@ -66,14 +67,15 @@ header nav ul li a, footer nav ul li a {
     background-size: cover;
     width: 100%;
 }
-
+.about-me {
+    display: flex;
+}
 .about-me p {
     display: flex;
     margin: 10px;
 }
 
 .big-words {
-    display: flex;
     float: left;
     margin: 15px;
     text-align: right;
@@ -124,6 +126,3 @@ header nav ul li a, footer nav ul li a {
     text-align: left;
     margin: 5px;
 }
-
-
-
