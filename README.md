@@ -10,5 +10,5 @@ HTML and CSS
 https://greenwoodtrevon.github.io/challenge-2/
 
 ## Screenshots
-![screenshot1](./assets/images/screen-shot.png)
-![screenshot1](./assets/images/screen-shot-1.png)
+![screenshot1](./assets/screen-shot.png)
+![screenshot1](./assets/screen-shot-1.png)
