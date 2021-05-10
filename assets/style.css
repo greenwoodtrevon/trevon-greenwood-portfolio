@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#F7f6f2;
 }
 h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 header, footer {
     padding: 20px 0px 20px 0px;
@@ -21,7 +22,7 @@ header h1, footer h1 {
     display: inline;
     background-color: #E14658;
     padding: 5px;
-    padding-left: 50px;
+    padding-left: 30px;
 }
 header nav, footer nav {
     float: right;
@@ -40,14 +41,18 @@ header nav ul li, footer nav ul li {
 }
 header nav ul li a, footer nav ul li a {
     display: flex;
+    flex-direction: row;
     margin: 0 20px;
     font-weight: lighter;
     font-size: 22px;
     padding: 5px;
+    border-bottom: 3px solid;
+    border-color: #E14658;
 }
 
 .hero div h2 {
     background-color: #E14658;
+    font-size: 30px;
     color:#F7f6f2;
     padding: 10px;
     display: block;
@@ -57,31 +62,68 @@ header nav ul li a, footer nav ul li a {
 .hero {
     margin-right: 50px;
     background-image: url("real-hero.jpg");
-    height: 100px;
+    height: 200px;
     background-size: cover;
     width: 100%;
-}
-
-.big-words {
-    display: flex;
-    float: left;
-    border-right: 5px;
-    border-color: #E14658;
-    margin: 15px;
-}
-.work h3 {
-    margin: 10px;
-}
-.container {
-    display: flex;
-    width: 70%;
-}
-.flex-item {
-    width: 75%;
-    flex-direction: row;
 }
 
 .about-me p {
     display: flex;
     margin: 10px;
 }
+
+.big-words {
+    display: flex;
+    float: left;
+    margin: 15px;
+    text-align: right;
+    border-right: 3px solid #22252C;
+    padding: 5px;
+}
+
+.work h3 {
+    margin: 10px;
+}
+.container {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.flex-item-1 {
+    width: 100%;
+    height: 400px;
+    background-color: gray;
+    text-align: center;
+}
+.flex-item-1 h2 {
+    margin: 10px;
+    border-radius: 3px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.flex-item {
+    width: 45%;
+    height: 100%;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 3px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.flex-item h2 {
+    display: inline-flex;
+    text-align: left;
+    color: #F7f6f2;
+}
+.flex-item p {
+    text-align: left;
+    margin: 5px;
+}
+
+
+
