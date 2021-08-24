@@ -1,4 +1,4 @@
-# challenge-2
+# Trevon Greenwood Portfolio
 
 ## Purpose
 My personal Portfolio that I will build onto as time goes on
